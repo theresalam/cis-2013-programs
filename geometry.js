@@ -87,7 +87,7 @@ var calcCircleArea = function()
 {
 	var floatRadius = parseFloat($("radius").value);
 
-	alert ("The Circle circumference is " + circleArea(floatRadius));	
+	alert ("The Circle area is " + circleArea(floatRadius));	
 };
 
 function circleArea(floatRadius_par)
