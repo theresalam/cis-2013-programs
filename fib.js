@@ -34,7 +34,7 @@ else
         j = k;
         intCount--; //this decrements the counter variable
     }
-    $("output").value = stringOutput;
+    $("output").value = stringOutput; //the solution goes back into the HTML DOM
 }
 }; 
 // Push solution back to Output through DOM
