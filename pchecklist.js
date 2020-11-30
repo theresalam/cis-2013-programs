@@ -15,13 +15,13 @@ var passwordCheckOld = function ()
     
 if (stringPassword.length < 8)
    {
-    alert("Your password is less than 8 characters long. Try again."); //alerts user the password is not long enough
+    stringOutput = ("Your password is less than 8 characters long. Try again."); //alerts user the password is not long enough
    }
    else
    {
       for (intCounter = 0; intCounter < arrayBadPasswords.length; intCounter++) //loop determines whether the password input by the user is bad
       {
-         if (stringPassword === array[intCounter])
+         if (stringPassword === arrayBadPasswords[intCounter])
          {
         stringOutput = "This is a bad password!"; //alerts user that the password is in the bad password category
          }
